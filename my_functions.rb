@@ -58,3 +58,14 @@ end
 def length(num)
   return num*num*num
 end
+
+def sphere_volume(num1)
+  answer = (4 * Math::PI * num1)/3
+  return answer.round(2)
+end
+
+
+def temp_change (num)
+  return (num - 32) * 5/9
+
+end
